@@ -1,0 +1,177 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-div{
+    background-color: rgb(0, 0, 0);
+    height: 660px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro{
+    font-size: 45px;
+    color: aliceblue;
+    font-weight: bold;
+    width: 700px;
+    margin-bottom: 0px;
+    text-shadow: 0.5px 0.5px 10px gray;
+
+
+}
+
+.main-para{
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 30px;
+    word-break: unset;
+    font-weight: 400;
+    width: 600px;
+    margin-left: -80px;
+    margin-bottom: 0;
+
+}
+
+.ppp{
+    margin-top: 0;
+}
+
+
+
+.third-line-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 0;
+}
+
+.last-line{
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+.second-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic{
+    height: 160px;
+    width: 160px;
+    border-radius: 84px;
+    border: none;
+    margin-bottom: 0;
+
+}
+
+.name{
+    font-size: 23px;
+    font-weight: 500;
+    color: aliceblue;
+    margin-bottom: 0;
+    margin-top: 3px;
+
+}
+
+
+.location{
+    font-size: 18px;
+    color: aliceblue;
+    margin-bottom: 6px;
+    margin-top: 0;
+
+
+}
+
+.web-intro{
+    font-size: 15px;
+    color: aliceblue;
+    margin-bottom: 10px;
+    margin-top: 0;
+
+}
+
+
+.links{
+    border: 4px solid aliceblue;
+    margin: 8px;
+    color: aliceblue;
+    border-radius: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 0 8px aliceblue;
+
+}
+
+
+.link-1{
+    padding: 10px 30px;
+    
+}
+
+.link-2{
+    padding: 10px 26px;
+   
+}
+
+.link-3{
+    padding: 10px 21px;
+   
+}
+
+.link-4{
+    padding: 10px 24px;
+   
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 750px) {
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1100px;
+        width: 100vw;
+    }
+
+    .intro{
+        font-size: 28px;
+        width: 330px;
+        margin-right: 5px;
+    }
+
+    .main-para{
+        width: 320px;
+        margin-left: 3px;
+        
+    }
+
+    .main-div{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
